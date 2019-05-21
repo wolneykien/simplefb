@@ -1,0 +1,39 @@
+simplefb (0.0.4) unstable; urgency=low
+
+  2015/07/24
+    * simplefb.c:
+        Игнорируем сигнал SIGPIPE, эмулируем кнопку KEY_POWER.
+    [visaev]
+
+simplefb (0.0.3) unstable; urgency=low
+
+  2015/06/16
+    ! simplefb.c:
+        Не закрываем fifo с клавиатурой каждый раз, чтобы не взводился POLLHUP.
+    [visaev]
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Tue, 16 Jun 2015 16:16:00 +0300
+
+simplefb (0.0.2) unstable; urgency=low
+
+  2015/06/03
+    * simplefb.c:
+        Теперь отправляем одну структуру вместо 64.
+    [visaev]
+
+ -- Vladimir Isaev <v.isaev@metrotek.spb.ru>  Wed, 03 Jun 2015 14:08:55 +0300
+
+simplefb (0.0.1) unstable; urgency=low
+
+  2015/05/29
+    ! simplefb.c:
+        Исправлена работа под 64-бита.
+    [pw, sn]
+
+  2015/05/29
+    * simplefb.c:
+        Работа с клавиатурой, создание файлов при запуске, работа с переменными
+        окружения.
+      [visaev]
+
+ -- Vladimir Isaev <v.isaev@metrotek.spb.ru>  Fri, 29 May 2015 14:54:52 +0300

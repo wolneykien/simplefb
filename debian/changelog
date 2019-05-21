@@ -1,0 +1,48 @@
+simplefb (0.0.4-1) etu; urgency=low
+
+  2015/07/24
+
+    * Fix: Handle SIGPIPE properly.
+    * Emulate KEY_POWER button.
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Wed, 29 Jul 2015 16:27:22 +0300
+
+simplefb (0.0.3-1) etu; urgency=low
+
+  2015/06/16
+
+    * Reduce CPU usage.
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Tue, 16 Jun 2015 16:16:00 +0300
+
+simplefb (0.0.2-1) etu; urgency=low
+
+  2015/06/05
+
+    * Send one event for each key press (thx visaev@).
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Fri, 05 Jun 2015 15:35:00 +0300
+
+simplefb (0.1.1-2) etu; urgency=low
+
+  2015/06/01
+
+    * Always send 32-bit keyboard events (thx visaev@).
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Mon, 01 Jun 2015 16:41:00 +0300
+
+simplefb (0.1.1-1) etu; urgency=low
+
+  2015/05/29
+
+    * Keyboard input handling (thx visaev@).
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Fri, 29 May 2015 18:04:00 +0300
+
+simplefb (0.1.0-1) etu; urgency=low
+
+  2015/05/28
+
+    * Initial build for Debian GNU/Linux.
+
+ -- Paul Wolneykien <p.wolneykien@metrotek.spb.ru>  Thu, 28 May 2015 19:07:00 +0300

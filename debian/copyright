@@ -1,0 +1,10 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: simplefb
+Source: http://metrotek.spb.ru/code/simplefb
+
+Files: *
+Copyright: 2008--2015 STC Metrotek
+License: Metrotek proprietary
+
+Files: debian/*
+License: GPL-3.0+

@@ -1,0 +1,18 @@
+Source: simplefb
+Section: main/misc
+Priority: extra
+Maintainer: Paul Wolneykien <p.wolneykien@metrotek.spb.ru>
+Build-Depends: debhelper:all (>= 9.0.0), dh-autoreconf:all, libx11-dev
+Standards-Version: 3.9.2
+Homepage: http://metrotek.spb.ru/code/simplefb
+
+Package: simplefb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple raw file display program
+
+Package: simplefb-dbg
+Architecture: any
+Depends: simplefb
+Description: A simple raw file display program
+ This package contains the debugging information (symbols).
